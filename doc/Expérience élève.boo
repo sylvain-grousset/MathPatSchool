@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C2BB5F61-D538-4CD7-87C5-3576CF16A7AB}" Label="" LastModificationDate="1600434380" Name="Expérience professeur" Objects="158" Symbols="4" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.6.10.6261"?>
+<?PowerDesigner AppLocale="UTF16" ID="{37850366-DCCC-4564-A052-F77B41FA49C3}" Label="" LastModificationDate="1600434326" Name="Expérience élève" Objects="93" Symbols="4" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.6.10.6261"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -8,12 +8,12 @@
 <a:SessionID>00000000-0000-0000-0000-000000000000</a:SessionID>
 <c:Children>
 <o:Model Id="o2">
-<a:ObjectID>C2BB5F61-D538-4CD7-87C5-3576CF16A7AB</a:ObjectID>
-<a:Name>Expérience professeur</a:Name>
-<a:Code>Experience_professeur</a:Code>
-<a:CreationDate>1600434183</a:CreationDate>
+<a:ObjectID>37850366-DCCC-4564-A052-F77B41FA49C3</a:ObjectID>
+<a:Name>Expérience élève</a:Name>
+<a:Code>Experience_eleve</a:Code>
+<a:CreationDate>1600434159</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434362</a:ModificationDate>
+<a:ModificationDate>1600434259</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -980,15 +980,15 @@ IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No</a:ModelOptionsText>
-<a:RepositoryFilename>%[PRJ_ROOT_DIR]%\Expérience professeur.moo</a:RepositoryFilename>
+<a:RepositoryFilename>%[PRJ_ROOT_DIR]%\Expérience élève.moo</a:RepositoryFilename>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
-<a:ObjectID>F2E5F4F4-16E1-4E29-9148-12C83237E472</a:ObjectID>
+<a:ObjectID>42E42BF6-5555-4047-A73E-5584AC24434A</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
-<a:CreationDate>1600434183</a:CreationDate>
+<a:CreationDate>1600434158</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434183</a:ModificationDate>
+<a:ModificationDate>1600434158</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
@@ -997,12 +997,12 @@ ColnFKNameUse=No</a:ModelOptionsText>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
 <o:Shortcut Id="o4">
-<a:ObjectID>F333F596-F11F-424C-955F-09161BE94283</a:ObjectID>
+<a:ObjectID>B11EB37D-6E18-4638-96BF-DCD493D6C833</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
-<a:CreationDate>1600434183</a:CreationDate>
+<a:CreationDate>1600434159</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434183</a:ModificationDate>
+<a:ModificationDate>1600434159</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
@@ -1014,12 +1014,12 @@ ColnFKNameUse=No</a:ModelOptionsText>
 </c:DefaultDiagram>
 <c:UseCaseDiagrams>
 <o:UseCaseDiagram Id="o5">
-<a:ObjectID>7FB39FBF-A8AC-42DD-BB47-4E6289A1C9E0</a:ObjectID>
-<a:Name>Définition de cas d&#39;utilisation_3</a:Name>
-<a:Code>Definition_de_cas_d_utilisation_3</a:Code>
-<a:CreationDate>1600434183</a:CreationDate>
+<a:ObjectID>E5DDF515-D8F1-4A92-8CDA-9A3AE5D8FCF4</a:ObjectID>
+<a:Name>Définition de cas d&#39;utilisation_2</a:Name>
+<a:Code>Definition_de_cas_d_utilisation_2</a:Code>
+<a:CreationDate>1600434159</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434362</a:ModificationDate>
+<a:ModificationDate>1600434259</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1419,10 +1419,10 @@ Shadow=0</a:DisplayPreferences>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
 <o:UseCaseAssociationSymbol Id="o6">
-<a:CreationDate>1600434362</a:CreationDate>
-<a:ModificationDate>1600434362</a:ModificationDate>
-<a:Rect>((-17875,8824), (323,9624))</a:Rect>
-<a:ListOfPoints>((-17475,9224),(-77,9224))</a:ListOfPoints>
+<a:CreationDate>1600434259</a:CreationDate>
+<a:ModificationDate>1600434259</a:ModificationDate>
+<a:Rect>((-14125,11675), (-3802,12475))</a:Rect>
+<a:ListOfPoints>((-13725,12075),(-4202,12075))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1439,10 +1439,10 @@ Shadow=0</a:DisplayPreferences>
 </c:Object>
 </o:UseCaseAssociationSymbol>
 <o:ActorSymbol Id="o7">
-<a:CreationDate>1600434347</a:CreationDate>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:CreationDate>1600434208</a:CreationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-22274,8851), (-17475,12450))</a:Rect>
+<a:Rect>((-18524,10276), (-13725,13875))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>12648447</a:FillColor>
@@ -1452,17 +1452,16 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
-<a:KeepAspect>1</a:KeepAspect>
 <a:KeepCenter>1</a:KeepCenter>
 <c:Object>
 <o:Shortcut Ref="o10"/>
 </c:Object>
 </o:ActorSymbol>
-<o:UseCaseSymbol Id="o11">
-<a:CreationDate>1600434355</a:CreationDate>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<o:UseCaseSymbol Id="o8">
+<a:CreationDate>1600434219</a:CreationDate>
+<a:ModificationDate>1600434219</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-4389,15900), (3941,21299))</a:Rect>
+<a:Rect>((-11188,7725), (2786,13124))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>16777152</a:FillColor>
@@ -1474,14 +1473,14 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Shortcut Ref="o12"/>
+<o:UseCase Ref="o11"/>
 </c:Object>
 </o:UseCaseSymbol>
-<o:UseCaseSymbol Id="o8">
-<a:CreationDate>1600434358</a:CreationDate>
-<a:ModificationDate>1600434358</a:ModificationDate>
+<o:UseCaseSymbol Id="o12">
+<a:CreationDate>1600434245</a:CreationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-6276,4425), (6124,9824))</a:Rect>
+<a:Rect>((4446,17476), (13104,22875))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>16777152</a:FillColor>
@@ -1493,7 +1492,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:UseCase Ref="o13"/>
+<o:Shortcut Ref="o13"/>
 </c:Object>
 </o:UseCaseSymbol>
 </c:Symbols>
@@ -1501,15 +1500,15 @@ LABL 0 Arial,8,N</a:FontList>
 </c:UseCaseDiagrams>
 <c:Actors>
 <o:Shortcut Id="o10">
-<a:ObjectID>11A4D94F-2957-4D6C-A7CE-1667FED006E9</a:ObjectID>
-<a:Name>Professeur</a:Name>
-<a:Code>Professeur</a:Code>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:ObjectID>B01AD18C-5ACE-4242-9A5F-89F701AB0232</a:ObjectID>
+<a:Name>Elève</a:Name>
+<a:Code>Eleve</a:Code>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetStereotype/>
-<a:TargetID>80C9C575-156E-40F8-A164-320C6DEC0CCF</a:TargetID>
+<a:TargetID>B3EC549B-37C3-4CBA-BA26-20F59F840F20</a:TargetID>
 <a:TargetClassID>18112101-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 <a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
 <c:FullShortcutReplica>
@@ -1518,13 +1517,22 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Shortcut>
 </c:Actors>
 <c:UseCases>
-<o:Shortcut Id="o12">
-<a:ObjectID>42BFD56E-BA18-465F-B01E-3D626445238E</a:ObjectID>
+<o:UseCase Id="o11">
+<a:ObjectID>6A6FFBBB-B76A-4EDC-89CF-1A84E574CA44</a:ObjectID>
+<a:Name>participe à la classe virtuelle</a:Name>
+<a:Code>participe_a_la_classe_virtuelle</a:Code>
+<a:CreationDate>1600434219</a:CreationDate>
+<a:Creator>UTI314</a:Creator>
+<a:ModificationDate>1600434326</a:ModificationDate>
+<a:Modifier>UTI314</a:Modifier>
+</o:UseCase>
+<o:Shortcut Id="o13">
+<a:ObjectID>E68583DE-07AB-42B9-B957-CD7C8DACA2D1</a:ObjectID>
 <a:Name>s&#39;identifie</a:Name>
 <a:Code>s_identifie</a:Code>
-<a:CreationDate>1600434355</a:CreationDate>
+<a:CreationDate>1600434245</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>C67F5139-31F5-4BF7-AEC1-3B636E2BB23D</a:TargetID>
@@ -1534,27 +1542,18 @@ LABL 0 Arial,8,N</a:FontList>
 <o:SubReplication Ref="o15"/>
 </c:FullShortcutReplica>
 </o:Shortcut>
-<o:UseCase Id="o13">
-<a:ObjectID>E72B2408-3AEA-44F7-9630-24DFE48BD3DD</a:ObjectID>
-<a:Name>anime une classe virtuelle</a:Name>
-<a:Code>anime_une_classe_virtuelle</a:Code>
-<a:CreationDate>1600434358</a:CreationDate>
-<a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434380</a:ModificationDate>
-<a:Modifier>UTI314</a:Modifier>
-</o:UseCase>
 </c:UseCases>
 <c:UseCaseAssociations>
 <o:UseCaseAssociation Id="o9">
-<a:ObjectID>BC1B5C0A-D228-4BA2-9BCF-48B987CBBEE4</a:ObjectID>
+<a:ObjectID>A223B209-E030-420D-8406-9C11E19C6DD5</a:ObjectID>
 <a:Name>Association_1</a:Name>
 <a:Code>Association_1</a:Code>
-<a:CreationDate>1600434362</a:CreationDate>
+<a:CreationDate>1600434259</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434362</a:ModificationDate>
+<a:ModificationDate>1600434259</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <c:Object1>
-<o:UseCase Ref="o13"/>
+<o:UseCase Ref="o11"/>
 </c:Object1>
 <c:Object2>
 <o:Shortcut Ref="o10"/>
@@ -1563,12 +1562,12 @@ LABL 0 Arial,8,N</a:FontList>
 </c:UseCaseAssociations>
 <c:TargetModels>
 <o:TargetModel Id="o16">
-<a:ObjectID>1710CE55-2BE2-45AE-827B-C3A17C9FA10A</a:ObjectID>
+<a:ObjectID>9DC9A0E8-E93C-44F0-A935-DEA6A1EF2324</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
-<a:CreationDate>1600434183</a:CreationDate>
+<a:CreationDate>1600434158</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetModelURL>file:///%[XOL]%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -1580,12 +1579,12 @@ LABL 0 Arial,8,N</a:FontList>
 </c:SessionShortcuts>
 </o:TargetModel>
 <o:TargetModel Id="o18">
-<a:ObjectID>7A694A4C-43E8-4D45-ADF4-A9523E26559C</a:ObjectID>
+<a:ObjectID>42442CB1-A14A-45F3-B9A3-0C474117E629</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
-<a:CreationDate>1600434183</a:CreationDate>
+<a:CreationDate>1600434159</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetModelURL>file:///%[XEM]%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
@@ -1597,19 +1596,19 @@ LABL 0 Arial,8,N</a:FontList>
 </c:SessionShortcuts>
 </o:TargetModel>
 <o:TargetModel Id="o20">
-<a:ObjectID>C7BE8797-7341-4DE0-8216-9A7ADBEDCE5C</a:ObjectID>
+<a:ObjectID>37088980-50D2-47A7-8FC9-3970BC4EC244</a:ObjectID>
 <a:Name>Identification</a:Name>
 <a:Code>Identification</a:Code>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600443500</a:ModificationDate>
-<a:Modifier>Sylvain</a:Modifier>
+<a:ModificationDate>1600439198</a:ModificationDate>
+<a:Modifier>UTI314</a:Modifier>
 <a:TargetModelURL>file:///%[PRJ_ROOT_DIR]%/Identification.moo</a:TargetModelURL>
 <a:TargetModelID>E414772B-458D-415D-9832-1C94B5D146EC</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1600443500</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1600434091</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o12"/>
+<o:Shortcut Ref="o13"/>
 <o:Shortcut Ref="o10"/>
 </c:SessionShortcuts>
 <c:SessionReplications>
@@ -1621,12 +1620,12 @@ LABL 0 Arial,8,N</a:FontList>
 </c:SessionReplications>
 <c:FullShortcutModel>
 <o:Model Id="o24">
-<a:ObjectID>529C4513-5365-4ED9-A002-0D12F76A008C</a:ObjectID>
+<a:ObjectID>A923FBD5-57DB-4E40-A353-512B43A543F3</a:ObjectID>
 <a:Name>Identification</a:Name>
 <a:Code>Identification</a:Code>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -2593,15 +2592,15 @@ IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No</a:ModelOptionsText>
-<a:RepositoryFilename>%[PRJ_ROOT_DIR]%\Expérience professeur.moo</a:RepositoryFilename>
+<a:RepositoryFilename>%[PRJ_ROOT_DIR]%\Expérience élève.moo</a:RepositoryFilename>
 <c:ObjectLanguage>
 <o:Shortcut Id="o17">
-<a:ObjectID>631BE55C-9021-4FD0-886B-9CC0A32E7242</a:ObjectID>
+<a:ObjectID>801F5C70-0849-4334-A263-B08F71D4B6F5</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
@@ -2610,12 +2609,12 @@ ColnFKNameUse=No</a:ModelOptionsText>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
 <o:Shortcut Id="o19">
-<a:ObjectID>6B606F1B-8684-4F33-AD3C-90D3461D85AC</a:ObjectID>
+<a:ObjectID>67ACA74C-8D1A-4B9A-852C-CB42409DD059</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
@@ -2624,23 +2623,31 @@ ColnFKNameUse=No</a:ModelOptionsText>
 </c:ExtendedModelDefinitions>
 <c:Actors>
 <o:Actor Id="o25">
-<a:ObjectID>92EBCF1E-D281-4AD7-8958-FF8B7C607660</a:ObjectID>
-<a:Name>Professeur</a:Name>
-<a:Code>Professeur</a:Code>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:ObjectID>7180E183-EE1C-4CC5-8ECE-632CB7547820</a:ObjectID>
+<a:Name>Elève</a:Name>
+<a:Code>Eleve</a:Code>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434347</a:ModificationDate>
+<a:ModificationDate>1600434209</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
+<a:Description>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\f0\fs20 L&#39;\&#39;e9l\&#39;e8ve suit les cours d&#39;un professeur :\par
+
+\pard{\pntext\f1\&#39;B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent250{\pntxtb\&#39;B7}}\li250 en mode assynchrone \&#39;e0 son ryhme sur la plateforme\par
+{\pntext\f1\&#39;B7\tab}en mo synchrone en classe virtuelle\par
+}
+</a:Description>
 </o:Actor>
 </c:Actors>
 <c:UseCases>
 <o:UseCase Id="o26">
-<a:ObjectID>83C661B2-5B43-4676-A5A4-A543E4FE2FD3</a:ObjectID>
+<a:ObjectID>1E931EBB-1D9A-47FA-B087-7D25C195908A</a:ObjectID>
 <a:Name>s&#39;identifie</a:Name>
 <a:Code>s_identifie</a:Code>
-<a:CreationDate>1600434355</a:CreationDate>
+<a:CreationDate>1600434245</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:Step>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
 {\*\generator Riched20 10.0.18362}\viewkind4\uc1 
@@ -2655,7 +2662,7 @@ Le front end interroge le back end pour v\&#39;e9rifier login/pwd et valide la c
 </a:UseCase.Extension>
 <a:Throws>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
 {\*\generator Riched20 10.0.18362}\viewkind4\uc1 
-\pard\f0\fs20 NB.: g\&#39;e9rer login et/ou pwd error = la connexion KO\par
+\pard\f0\fs20 NB.: g\&#39;e9rer login et/ou pwd error = la conx KO\par
 }
 </a:Throws>
 <a:PreCondition>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
@@ -2664,28 +2671,23 @@ Le front end interroge le back end pour v\&#39;e9rifier login/pwd et valide la c
 Le front end est op\&#39;e9ration sur le serveur.\par
 }
 </a:PreCondition>
-<a:PostCondition>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
-{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
-\pard\f0\fs20 L&#39;utilisateur est connect\&#39;e9\par
-}
-</a:PostCondition>
 </o:UseCase>
 </c:UseCases>
 <c:Replications>
 <o:Replication Id="o23">
-<a:ObjectID>96986774-D0E9-4339-BEFB-64FC8A033889</a:ObjectID>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:ObjectID>92B6BAEF-4A7B-4A66-9FD2-BBE40BE75E41</a:ObjectID>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:OriginalID>E414772B-458D-415D-9832-1C94B5D146EC</a:OriginalID>
 <a:OriginalClassID>18112060-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
 <c:SubReplications>
 <o:SubReplication Id="o22">
-<a:ObjectID>6B8E8DD4-326F-43E8-9AAB-CB1EC9AAB50F</a:ObjectID>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:ObjectID>4864139A-5AAD-4B68-B5A6-2EC479146B52</a:ObjectID>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:OriginalID>19D13A4E-E367-41F1-BAB3-E56AD4E02DB5</a:OriginalID>
 <a:OriginalClassID>362D41EC-9D82-11D1-8E5D-444553540000</a:OriginalClassID>
@@ -2695,10 +2697,10 @@ Le front end est op\&#39;e9ration sur le serveur.\par
 </c:ReplicaObject>
 </o:SubReplication>
 <o:SubReplication Id="o21">
-<a:ObjectID>FEA8A807-D2F2-49B9-80D6-74FFD173AE06</a:ObjectID>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:ObjectID>D5BEA5A2-C807-4BCD-9348-3DF53BBF91CA</a:ObjectID>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:OriginalID>037A009B-BDC8-4EBE-B9EE-1724F4F8CC97</a:OriginalID>
 <a:OriginalClassID>362D41EC-9D82-11D1-8E5D-444553540000</a:OriginalClassID>
@@ -2708,23 +2710,23 @@ Le front end est op\&#39;e9ration sur le serveur.\par
 </c:ReplicaObject>
 </o:SubReplication>
 <o:SubReplication Id="o14">
-<a:ObjectID>72738215-E59D-4E7F-A7BA-2DEB1D54A812</a:ObjectID>
-<a:CreationDate>1600434347</a:CreationDate>
+<a:ObjectID>C62879E6-8443-4ABA-9FCC-FBA51700D4B6</a:ObjectID>
+<a:CreationDate>1600434208</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
-<a:OriginalID>80C9C575-156E-40F8-A164-320C6DEC0CCF</a:OriginalID>
+<a:OriginalID>B3EC549B-37C3-4CBA-BA26-20F59F840F20</a:OriginalID>
 <a:OriginalClassID>18112101-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
-<a:OriginalUOL>Actors::Acteur &#39;Professeur&#39;</a:OriginalUOL>
+<a:OriginalUOL>Actors::Acteur &#39;Eleve&#39;</a:OriginalUOL>
 <c:ReplicaObject>
 <o:Actor Ref="o25"/>
 </c:ReplicaObject>
 </o:SubReplication>
 <o:SubReplication Id="o15">
-<a:ObjectID>D5168219-2C88-413F-9D65-2DAF11E31B4F</a:ObjectID>
-<a:CreationDate>1600434355</a:CreationDate>
+<a:ObjectID>D34ED1DD-4F24-4720-B0A6-41BACCAF588E</a:ObjectID>
+<a:CreationDate>1600434245</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600434355</a:ModificationDate>
+<a:ModificationDate>1600434245</a:ModificationDate>
 <a:Modifier>UTI314</a:Modifier>
 <a:OriginalID>C67F5139-31F5-4BF7-AEC1-3B636E2BB23D</a:OriginalID>
 <a:OriginalClassID>18112102-1A4B-11D1-83D9-444553540000</a:OriginalClassID>
