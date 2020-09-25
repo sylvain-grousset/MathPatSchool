@@ -3932,7 +3932,7 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o7">
 <a:CreationDate>1600441000</a:CreationDate>
 <a:ModificationDate>1600441000</a:ModificationDate>
-<a:Rect>((-22321,22525), (-10883,24424))</a:Rect>
+<a:Rect>((-22321,22546), (-10883,24445))</a:Rect>
 <a:ListOfPoints>((-21921,23571),(-11283,23571))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -4018,7 +4018,7 @@ SOURCE 0 Arial,8,N</a:FontList>
 <a:CreationDate>1600441000</a:CreationDate>
 <a:ModificationDate>1600441000</a:ModificationDate>
 <a:SourceTextOffset>(-1151, -205)</a:SourceTextOffset>
-<a:Rect>((-32728,6283), (-23702,9300))</a:Rect>
+<a:Rect>((-32728,6283), (-23702,9321))</a:Rect>
 <a:ListOfPoints>((-24102,8652),(-30903,8652),(-30903,6683))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -4758,12 +4758,12 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>CLASSES_METIER</a:Code>
 <a:CreationDate>1600441070</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1601037961</a:ModificationDate>
-<a:Modifier>Sylvain</a:Modifier>
+<a:ModificationDate>1600442111</a:ModificationDate>
+<a:Modifier>UTI314</a:Modifier>
 <a:TargetModelURL>file:///%[PRJ_ROOT_DIR]%/classes_metier.mpd</a:TargetModelURL>
 <a:TargetModelID>8FC58543-F669-454D-A74F-58AF7DB8769D</a:TargetModelID>
 <a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1601037961</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1601037363</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>

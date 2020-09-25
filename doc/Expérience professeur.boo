@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C2BB5F61-D538-4CD7-87C5-3576CF16A7AB}" Label="" LastModificationDate="1600434380" Name="Expérience professeur" Objects="158" Symbols="4" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.6.10.6261"?>
+<?PowerDesigner AppLocale="UTF16" ID="{C2BB5F61-D538-4CD7-87C5-3576CF16A7AB}" Label="" LastModificationDate="1600434380" Name="Expérience professeur" Objects="93" Symbols="4" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.6.10.6261"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1452,7 +1452,6 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
-<a:KeepAspect>1</a:KeepAspect>
 <a:KeepCenter>1</a:KeepCenter>
 <c:Object>
 <o:Shortcut Ref="o10"/>
@@ -1462,7 +1461,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:CreationDate>1600434355</a:CreationDate>
 <a:ModificationDate>1600434355</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-4389,15900), (3941,21299))</a:Rect>
+<a:Rect>((-4553,15900), (4105,21299))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>16777152</a:FillColor>
@@ -1481,7 +1480,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1600434358</a:CreationDate>
 <a:ModificationDate>1600434358</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-6276,4425), (6124,9824))</a:Rect>
+<a:Rect>((-6522,4425), (6370,9824))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>16777152</a:FillColor>
@@ -1602,12 +1601,12 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Identification</a:Code>
 <a:CreationDate>1600434347</a:CreationDate>
 <a:Creator>UTI314</a:Creator>
-<a:ModificationDate>1600443500</a:ModificationDate>
-<a:Modifier>Sylvain</a:Modifier>
+<a:ModificationDate>1600439198</a:ModificationDate>
+<a:Modifier>UTI314</a:Modifier>
 <a:TargetModelURL>file:///%[PRJ_ROOT_DIR]%/Identification.moo</a:TargetModelURL>
 <a:TargetModelID>E414772B-458D-415D-9832-1C94B5D146EC</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1600443500</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1600434091</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o12"/>
 <o:Shortcut Ref="o10"/>
@@ -2655,7 +2654,7 @@ Le front end interroge le back end pour v\&#39;e9rifier login/pwd et valide la c
 </a:UseCase.Extension>
 <a:Throws>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
 {\*\generator Riched20 10.0.18362}\viewkind4\uc1 
-\pard\f0\fs20 NB.: g\&#39;e9rer login et/ou pwd error = la connexion KO\par
+\pard\f0\fs20 NB.: g\&#39;e9rer login et/ou pwd error = la conx KO\par
 }
 </a:Throws>
 <a:PreCondition>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
@@ -2664,11 +2663,6 @@ Le front end interroge le back end pour v\&#39;e9rifier login/pwd et valide la c
 Le front end est op\&#39;e9ration sur le serveur.\par
 }
 </a:PreCondition>
-<a:PostCondition>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
-{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
-\pard\f0\fs20 L&#39;utilisateur est connect\&#39;e9\par
-}
-</a:PostCondition>
 </o:UseCase>
 </c:UseCases>
 <c:Replications>
