@@ -1,0 +1,67 @@
+{
+    titre: "parcour1",
+    objectif:"Pion de bronze",
+    description:"Avec ce cour vous apprendrez les bases des échecs",
+    cours:[{ObjectId:("5f7736f9643a815add675cae")},
+           {ObjectId:("5f773cd2643a815add675cb3")}
+		  ]
+})
+
+
+
+// cours
+
+db.cours.insert({
+      nom_cours:"Grand Roc",
+      date:"02/10/2020",
+      heure_debut:"15:00:00",
+      heure_fin:"16:00:00",
+      description:"Presentation du grand roc"
+}
+)
+
+const parcours = new Shema({
+	titre: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	description: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	cours: [{ type: ObjectId, required: true, unique: true ]}
+});
+
+
+const cours = new Shema({
+	nom_cours: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	date: {
+		type: date,
+		required: true,
+		unique: true
+	},
+	heure_debut: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	heure_fin: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	description: {
+		type: String,
+		required: true,
+		unique: true
+	},
+});
+
+
+	

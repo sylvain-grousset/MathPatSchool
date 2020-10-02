@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\Backend",
-    "\\src\\frontend"
+    "\\src\\frontend",
+    "\\src\\frontend\\src"
   ],
-  "SelectedNode": "\\src\\Backend\\package.json",
+  "SelectedNode": "\\src\\frontend\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
