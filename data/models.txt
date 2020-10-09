@@ -1,4 +1,4 @@
-{
+db.parcours.insert({
     titre: "parcour1",
     objectif:"Pion de bronze",
     description:"Avec ce cour vous apprendrez les bases des échecs",
@@ -6,6 +6,51 @@
            {ObjectId:("5f773cd2643a815add675cb3")}
 		  ]
 })
+
+db.eleve.insert({
+	nom: "GROUSSET",
+	prenom: "Sylvain",
+	rang: "Pion bronze"
+
+})
+
+db.eleve.insert({
+	nom: "GUEISSAZ",
+	prenom: "Emmanuel",
+	rang: "Pion bronze"
+
+})
+
+db.contenu.insert({
+	nom: "analyse strategique",
+	extension: ".pdf"
+
+})
+
+db.contenu.insert({
+	nom: "demonstration",
+	extension: ".wav"
+
+})
+db.contenu.insert({
+	nom: "explication",
+	extension: ".pdf"
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
