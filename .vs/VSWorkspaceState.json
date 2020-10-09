@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\doc",
     "\\src",
     "\\src\\Backend",
     "\\src\\frontend"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\src\\Backend\\package.json",
+=======
+  "SelectedNode": "\\doc\\MatPatSchool.epgz",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
