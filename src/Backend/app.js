@@ -8,6 +8,7 @@ var assert = require('assert');
 const mongoose = require('mongoose');
 
 const Cours = require('./models/cours');
+const cours = require('./models/cours');
 
 var url = 'mongodb://localhost:27017/test';
 
@@ -29,7 +30,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.get('/', function (req, res) {
     res.send('Hello World!');
 });
-   
+
+
+app.get('/Cours/:date', function(req, res) {
+  var dateEnter = req.params.date;
+  
+	Cours.find({
+    date: dateEnter
+  }) 
+  .then(result => res.status(200).json(result));
+ 
+});
+
+
 
 //Ajout d'un cours
 app.post('/addCours', function(req,res) {
@@ -42,8 +55,8 @@ app.post('/addCours', function(req,res) {
     contenu: req.body.contenu,
     
   });
-  cours.save().then(val => {
-    res.json({ msg: "Cours Added Successfully", val: val })
+  cours.save()
+  .then(val => {res.json({ msg: "Cours Added Successfully", val: val })
   })
 })
 	
@@ -62,22 +75,13 @@ app.delete('/Delete/Cours/:nom_cours', function(req, res) {
 });
 
 
-app.get('/Cours/:date', function(req, res) {
-	let dateEnter = req.params.date;
-	Cours.find({
-    date: dateEnter
-  }) function(err){
-    if(err)
-      res.send(err)
 
-    res.json()
-  }
- 
-});
+
+
 
 
 //get all employee data from db
-app.get('/Cours', function(req, res) {
+app.get('/AllCours', function(req, res) {
 	// use mongoose to get all todos in the database
 	Cours.find(function(err, cours) {
 		// if there is an error retrieving, send the error otherwise send data

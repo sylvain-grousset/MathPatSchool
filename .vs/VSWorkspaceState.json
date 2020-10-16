@@ -3,9 +3,8 @@
     "",
     "\\src",
     "\\src\\Backend",
-    "\\src\\frontend",
-    "\\src\\frontend\\src"
+    "\\src\\frontend"
   ],
-  "SelectedNode": "\\src\\frontend\\src\\App.js",
+  "SelectedNode": "\\src\\Backend\\app.js",
   "PreviewInSolutionExplorer": false
 }
