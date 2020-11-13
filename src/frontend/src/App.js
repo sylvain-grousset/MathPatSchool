@@ -1,46 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
- 
+import { Link } from 'react-router-dom';
+import * as ReactBootStrap from "react-bootstrap";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-    username: '',
-    password: ''
-    };
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({
-      [event.target.name]: event.target.value
-    });
-  }
-
-  handleSubmit(event) {
-    alert('Bonjour ' + this.state.username + this.state.password);
-    event.preventDefault();
-  }
-
-  render() {
+function App() {
     return (
+        <div className="App">
+        <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="dark" variant="dark">
+  <ReactBootStrap.Navbar.Brand href="#Accueil">LOGO</ReactBootStrap.Navbar.Brand>
+  <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+    <ReactBootStrap.Nav className="mr-auto">
+      <ReactBootStrap.Nav.Link href="#MatPatSchool">MatPatSchool</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="#Groupes">Groupes</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="#Parcours">Parcours</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="#Edt">Emploi du temps</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="#Eleve">Elève</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <ReactBootStrap.NavDropdown.Item href="#action/3.1">Action</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="#action/3.3">Something</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Divider />
+        <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item>
+      </ReactBootStrap.NavDropdown>
+    </ReactBootStrap.Nav>
 
-      <form onSubmit={this.handleSubmit} class='App-header'>
-      <h1>Bienvenue</h1>
-        <label>
-            Login : <input name="username" type="text" value={this.state.username} onChange={this.handleChange} />
-        </label>
-        <label>
-            Mot de passe : <input name="password" type="password" value={this.state.password} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Envoyer" />
-      </form>
-    );
-  }
+    <ReactBootStrap.Nav>
+      <ReactBootStrap.Nav.Link href="#username">#Nom d'utilisateur</ReactBootStrap.Nav.Link>
+    </ReactBootStrap.Nav>
+    
+  </ReactBootStrap.Navbar.Collapse>
+
+</ReactBootStrap.Navbar>
+</div>)
 }
 
 export default App;

@@ -4,12 +4,9 @@
     "\\doc",
     "\\src",
     "\\src\\Backend",
-    "\\src\\frontend"
+    "\\src\\frontend",
+    "\\src\\frontend\\src"
   ],
-<<<<<<< Updated upstream
-  "SelectedNode": "\\src\\Backend\\package.json",
-=======
   "SelectedNode": "\\doc\\MatPatSchool.epgz",
->>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
