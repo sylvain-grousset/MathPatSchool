@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 const Cours = require('./models/cours');
 const cours = require('./models/cours');
 
-var url = 'mongodb://localhost:27017/test';
+var url = 'mongodb://localhost:27017/ppe';
 
 //connection à la bDD mongoDB
 mongoose.connect(url,
