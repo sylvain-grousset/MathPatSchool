@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
+=======
 import { with-Router } from 'react-Router';
 
+>>>>>>> b8319cb637b49fe6ba49f113a0edef11ccde4764
 import './App.css';
+import Page_Connexion from './Page_Connexion.js';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
 
+<<<<<<< HEAD
+    }
+
+
+    render() {
+        return (
+                <Page_Connexion />
+=======
 
         this.state = {
             username: "",
@@ -38,6 +50,7 @@ class App extends React.Component {
                 <center><a href="https://www.w3schools.com/">S'enregistrer ?</a></center><br/>
                 <input type="button" value="Annuler"></input>
             </form>
+>>>>>>> b8319cb637b49fe6ba49f113a0edef11ccde4764
         );
     }
 }
