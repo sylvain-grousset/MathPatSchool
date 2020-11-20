@@ -5,8 +5,9 @@
     "\\src",
     "\\src\\Backend",
     "\\src\\frontend",
+    "\\src\\frontend\\public",
     "\\src\\frontend\\src"
   ],
-  "SelectedNode": "\\doc\\MatPatSchool.epgz",
+  "SelectedNode": "\\src\\frontend\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }
