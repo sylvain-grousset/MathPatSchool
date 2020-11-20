@@ -37,10 +37,12 @@ app.get('/', function (req, res) {
 
 app.get('/Login', function(req, res){
   var utilisateur = req.query.utilisateur;
-  //var mdp = req.query.mdp;
-  Users.find({login: utilisateur
+  var mdp = req.query.mdp;
+  Users.findOne({login: utilisateur
   })
-  .then(result => console.log(result.mdp));
+  .then(result => {if(result.mdp === mdp){
+    console.log('MDP CORRECT');
+  }});
 
 });
 
@@ -50,7 +52,7 @@ app.get('/Cours/:date', function(req, res) {
 	Cours.find({
     date: dateEnter
   }) 
-  .then(result => res.status(200).json({result: mdp}));
+  .then(a => res.status(200).json(a.mdp));
  
 });
 
