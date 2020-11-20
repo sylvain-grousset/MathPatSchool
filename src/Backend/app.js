@@ -9,6 +9,8 @@ const mongoose = require('mongoose');
 
 const Cours = require('./models/cours');
 const cours = require('./models/cours');
+const Users = require('./models/Users');
+const { db } = require('./models/cours');
 
 var url = 'mongodb://localhost:27017/ppe';
 
@@ -23,14 +25,24 @@ mongoose.connect(url,
     .catch(() => console.log('Connexion � MongoDB �chou�e !'));
 
 
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
+
 app.get('/', function (req, res) {
     res.send('Hello World!');
-});
+}); 
 
+app.get('/Login', function(req, res){
+  var utilisateur = req.query.utilisateur;
+  //var mdp = req.query.mdp;
+  Users.find({login: utilisateur
+  })
+  .then(result => console.log(result.mdp));
+
+});
 
 app.get('/Cours/:date', function(req, res) {
   var dateEnter = req.params.date;
@@ -38,7 +50,7 @@ app.get('/Cours/:date', function(req, res) {
 	Cours.find({
     date: dateEnter
   }) 
-  .then(result => res.status(200).json(result));
+  .then(result => res.status(200).json({result: mdp}));
  
 });
 
