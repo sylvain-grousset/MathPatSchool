@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { with-Router } from 'react-Router';
 
 import './App.css';
 
@@ -23,7 +22,7 @@ class App extends React.Component {
     }
 
     handleSubmit(event) {
-        alert("Le nom d'utilisateur a été soumis : " + this.state.username + " ainsi que le mot de passe : " + this.state.password);
+        window.location.replace("http://localhost:3000/login?utilisateur="+this.state.username+"&mdp="+this.state.password);
         event.preventDefault();
     }
 
@@ -36,7 +35,6 @@ class App extends React.Component {
                 <center><input type="submit" value="Envoyer"></input></center><br/>
                 <center><a href="https://www.w3schools.com/">Mot de passe oublié ?</a></center><br/>
                 <center><a href="https://www.w3schools.com/">S'enregistrer ?</a></center><br/>
-                <input type="button" value="Annuler"></input>
             </form>
         );
     }
