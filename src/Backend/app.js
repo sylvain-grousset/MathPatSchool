@@ -21,8 +21,8 @@ mongoose.connect(url,
         useUnifiedTopology: true,
         useCreateIndex: true
     })
-    .then(() => console.log('Connexion � MongoDB r�ussie !'))
-    .catch(() => console.log('Connexion � MongoDB �chou�e !'));
+    .then(() => console.log('Connexion MongoDB reussie !'))
+    .catch(() => console.log('Connexion MongoDB Echouee !'));
 
 
 
