@@ -21,7 +21,7 @@ handleChange(event) {
 }
 
 handleSubmit(event) {
-    alert("Le nom d'utilisateur a été soumis : " + this.state.username + " ainsi que le mot de passe : " + this.state.password);
+    window.location.replace("https://localhost:3000/login?utilisateur="+this.state.username+"&mdp="+this.state.password);
     event.preventDefault();
 }
     
@@ -31,9 +31,8 @@ render() {
             <h1>Bienvenue sur notre page de connexion !</h1><br />
             <center><label>Nom d'utilisateur : </label><input type="text" name="username" value={this.state.username} onChange={this.handleChange} /></center><br />
             <center><label>Mot de passe : </label><input type="password" name="password" value={this.state.password} onChange={this.handleChange} /></center><br />
-            <center><input type="submit" value="Envoyer"></input></center><br />
-            <center><a href="https://www.w3schools.com/">Mot de passe oublié ?</a></center><br />
-            <center><a href="https://www.w3schools.com/">S'enregistrer ?</a></center><br />
+            <center><input type="submit" value="Valider"></input></center><br />
+            <center><a href="">Mot de passe oubli&eacute; ?</a></center><br />
             <input type="button" value="Annuler"></input>
         </form>
     );
