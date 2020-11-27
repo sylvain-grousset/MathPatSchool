@@ -37,3 +37,28 @@
     transform: rotate(360deg);
   }
 }
+
+.groupesTableaux{
+    display:inline-block;
+    vertical-align:top;
+    width:50%;
+    text-align:center;
+    padding:2%;
+}
+
+tr{
+    border:1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre{
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em;
+}
+
+.selectionButton{
+    width: 100%;
+}

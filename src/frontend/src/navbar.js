@@ -21,19 +21,18 @@ function NavBar() {
 
       <ReactBootStrap.Nav.Link href="/gestionGroupe">Groupes</ReactBootStrap.Nav.Link>
       <ReactBootStrap.Nav.Link href="/Parcours">Parcours</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="Edt">Emploi du temps</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="/Eleve">Elève</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="#action/3.1">Action</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="#action/3.3">Something</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Divider />
-        <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item>
-      </ReactBootStrap.NavDropdown>
+      <ReactBootStrap.Nav.Link href="/Edt">Emploi du temps</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="/Eleve">El&egrave;ve</ReactBootStrap.Nav.Link>
+      
     </ReactBootStrap.Nav>
 
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link href="#username">#Nom d'utilisateur</ReactBootStrap.Nav.Link>
+   
+      <ReactBootStrap.NavDropdown title="#Nom d'utilisateur" id="collasible-nav-dropdown">
+        <ReactBootStrap.NavDropdown.Item href="/Profil">Profil</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Divider />
+        <ReactBootStrap.NavDropdown.Item href="/Deconnexion">D&eacute;connexion</ReactBootStrap.NavDropdown.Item>
+      </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
     
   </ReactBootStrap.Navbar.Collapse>
@@ -42,7 +41,7 @@ function NavBar() {
 </div>)
 }
 
-function Groupe() {
+function CnxGroupe() {
   return <h2>gestionGroupe</h2>;
 }
 
