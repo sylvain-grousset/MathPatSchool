@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import { with-Router } from 'react-Router';
 import './App.css';
 import Page_Connexion from './Page_Connexion.js';
 
