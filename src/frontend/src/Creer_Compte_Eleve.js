@@ -21,7 +21,7 @@ export class Creer_Compte_Eleve extends Component {
     }
 
     handleSubmit(event) {
-        
+        window.location.replace("https://localhost:3000/login?utilisateur="+this.state.username+"&mdp="+this.state.password);
         event.preventDefault();
     }
 
