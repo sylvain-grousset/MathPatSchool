@@ -21,8 +21,8 @@ mongoose.connect(url,
         useUnifiedTopology: true,
         useCreateIndex: true
     })
-    .then(() => console.log('Connexion � MongoDB r�ussie !'))
-    .catch(() => console.log('Connexion � MongoDB �chou�e !'));
+    .then(() => console.log('Connexion MongoDB reussie !'))
+    .catch(() => console.log('Connexion MongoDB Echouee !'));
 
 
 
@@ -41,8 +41,9 @@ app.get('/Login', function(req, res){
   Users.findOne({login: utilisateur
   })
   .then(result => {if(result.mdp === mdp){
-    console.log('MDP CORRECT');
-  }});
+    res.send('MDP CORRECT');
+  }else{res.send('MDP INCCORECT')
+}});
 
 });
 
@@ -84,7 +85,7 @@ app.delete('/Delete/Cours/:nom_cours', function(req, res) {
 		if (err)
 			res.send(err);
 		else
-			res.send('Successfully! Employee has been Deleted.');	
+			res.send('Le cours a été supprimé avec succès');	
 	});
 });
 
