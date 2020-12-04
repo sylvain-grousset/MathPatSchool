@@ -41,7 +41,7 @@ app.get('/Login', function(req, res){
   Users.findOne({login: utilisateur
   })
   .then(result => {if(result.mdp === mdp){
-    res.send('MDP CORRECT');
+    return res.redirect("http://localhost:3001/gestionGroupe?utilisateur="+utilisateur+"");
   }else{res.send('MDP INCCORECT')
 }});
 

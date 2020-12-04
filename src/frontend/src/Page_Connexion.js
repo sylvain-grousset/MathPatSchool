@@ -1,4 +1,26 @@
 import React, { Component } from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+  
+  
+  function CnxPageConnexion() {
+  
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Page_Connexion />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 
 export class Page_Connexion extends Component {
 
@@ -21,7 +43,7 @@ handleChange(event) {
 }
 
 handleSubmit(event) {
-    window.location.replace("https://localhost:3000/login?utilisateur="+this.state.username+"&mdp="+this.state.password);
+    window.location.replace(`http://localhost:3000/Login?utilisateur=${this.state.username}&mdp=${this.state.password}`);
     event.preventDefault();
 }
     
@@ -41,4 +63,4 @@ render() {
 
 }
 
-export default Page_Connexion;
+export default CnxPageConnexion;

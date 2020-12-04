@@ -38,6 +38,17 @@ db.contenu.insert({
 
 })
 
+db.users.insert({
+	login:"EGUEISSAZ", 
+	mdp:"bpsen1"
+});
+
+db.users.insert({
+	login:"SGROUSSET", 
+	mdp:"bpsen"
+});
+
+
 
 
 
