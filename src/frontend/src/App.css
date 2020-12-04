@@ -54,11 +54,21 @@ tr{
 }
 
 .titre{
-    margin-left: auto;
-    margin-right: auto;
-    width: 4em;
+    text-align: center;
 }
 
 .selectionButton{
     width: 100%;
 }
+
+.supprimer{
+    background-color: white;
+    color: black;
+}
+
+.supprimer:hover{
+    background-color: red;
+    color: white;
+}
+
+

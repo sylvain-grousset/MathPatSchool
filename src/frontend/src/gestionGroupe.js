@@ -1,7 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 import './App.css';
 import * as ReactBootStrap from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Redirect } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
 import {
   BrowserRouter as Router,
@@ -9,6 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
 
 function CnxGroupe() {
 
@@ -28,9 +31,9 @@ function CnxGroupe() {
 function GestionGroupe() {
   return(
 
+
   <div class="page">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <h2 class="titre">Groupe</h2>
+    <h2 class="titre">Groupes</h2>
     <table class="groupesTableaux">
         <thead>Mes groupes</thead>
             <tr><input type="button" class="selectionButton" id="test" value="Groupe terminal SI1" onclick="" ></input></tr>
@@ -42,10 +45,15 @@ function GestionGroupe() {
             <tr>Martin WATKINS</tr>
             <tr>Max WACQUIER</tr>
     </table>
-    <input type="button" value="Supprimer"></input>
-    <input type="button" value="Cr&eacute;er"></input>
+    <input type="button" value="Supprimer groupe" id="supprimer"></input>
+    <input type="button" id="myBtn" value="Cr&eacute;er groupe"></input>
+
+
   </div>)
 }
+
+
+
 
 
 
