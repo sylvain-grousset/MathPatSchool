@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import Page_Connexion from './Page_Connexion.js';
+import Calendrier from './Calendrier.js';
+import 'react-calendar/dist/Calendar.css';
 
 class App extends React.Component {
     constructor(props) {
@@ -11,7 +13,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <Page_Connexion />
+            <Calendrier />
         );
     }
 }
