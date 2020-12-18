@@ -4,9 +4,7 @@ import * as ReactBootStrap from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Redirect } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import Calendar from 'react-calendar';
-import moment from 'moment';
-import 'react-calendar/dist/Calendar.css';
+import Calendrier from './Calendrier.js';
 
 
 import {
@@ -18,12 +16,11 @@ import {
 
 
 function CnxProfil() {
-
   return (
     <Router>
       <div>
         <Switch>
-          <Route path="/Profil">
+          <Route path="/profil">
             <Profil />
           </Route>
         </Switch>
@@ -32,21 +29,12 @@ function CnxProfil() {
   );
 }
 
-export function Calendrier() {
-    const [dateState, setDateState] = useState(new Date())
-    const changeDate = (e) => {
-        setDateState(e)
-    }
-    return (
-        <>
-            <Calendar
-                value={dateState}
-                onChange={changeDate}
-            />
-            <p> La date s&eacute;lectionn&eacute;e actuellement est <b>{moment(dateState).format('MMMM Do YYYY')}</b></p>
-        </>
+function Profil(){
+    return(
+     <Calendrier />
     )
 }
+
 
 
 export default CnxProfil;

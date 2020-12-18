@@ -71,4 +71,21 @@ tr{
     color: white;
 }
 
+/*input[type = checkbox] {
+    visibility:hidden;
+}*/
 
+.groupes{
+    cursor: pointer;
+    width:100%;
+}
+
+.groupes:hover{
+    background: green;
+    color: white;
+}
+
+input:checked + label{
+    background: blue;
+    color: white;
+}

@@ -30,23 +30,27 @@ function CnxGroupe() {
 
 function GestionGroupe() {
   return(
-
-
-  <div class="page">
-    <h2 class="titre">Groupes</h2>
-    <table class="groupesTableaux">
+  <div className="page">
+    <h2 className="titre">Groupes</h2>
+    <form>
+    <table className="groupesTableaux">
         <thead>Mes groupes</thead>
-            <tr><input type="button" class="selectionButton" id="test" value="Groupe terminal SI1" onclick="" ></input></tr>
-            <tr><input type="button" class="selectionButton" value="Groupe terminal 3"></input></tr>
-            <tr>Groupe terminal 3</tr>
+        
+            <label className="groupes"><tr><input type="checkbox" id="groupe1" value="1" className="groupes"/>Groupe terminal SI1</tr></label>
+            <tr className="groupes"><input type="checkbox" id="groupe2" value="2" className="groupes"/><label for="groupe2">Groupe terminal SI2</label></tr>
+            <tr className="groupes"><input type="checkbox" id="groupe3" value="3" className="groupes"/><label for="groupe3">Groupe premiere</label></tr>
+            <tr className="groupes"><input type="checkbox" id="groupe4" value="4" className="groupes"/><label for="groupe4">Groupe premiere</label></tr>
+            
     </table>
-    <table class="groupesTableaux">
+        <input type="button" value="Supprimer groupe" id="supprimer"></input>
+    <input type="button" id="myBtn" value="Cr&eacute;er groupe"></input>
+    </form>
+    <table className="groupesTableaux">
         <thead>Les &eacute;l&egrave;ves</thead>
             <tr>Martin WATKINS</tr>
             <tr>Max WACQUIER</tr>
     </table>
-    <input type="button" value="Supprimer groupe" id="supprimer"></input>
-    <input type="button" id="myBtn" value="Cr&eacute;er groupe"></input>
+
 
 
   </div>)
